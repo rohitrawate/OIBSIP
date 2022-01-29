@@ -1,2 +1,2 @@
-# OIBGRIP
+# OIBSIP
 Oasis Infobyte
