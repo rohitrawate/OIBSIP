@@ -1,0 +1,195 @@
+.container{
+    text-align: center;
+}
+
+.header{
+    color: #ffffff;
+    background-color: black;
+    border-radius: 30px;
+    /* height: 25px; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+}
+.header:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+background-color: grey;
+}
+
+img:hover{
+  
+
+}
+
+
+
+.main_content{
+    border: #ffffff;
+    border-radius: 30px;
+    color: azure;
+    background-color: black;
+}
+
+
+
+.timeline{
+    /* background-color: aliceblue; */
+    color: white;
+    font-size: large;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.timeline:hover{
+    /* background-color: #bdfaff; */
+    box-shadow: 10px 0px 5px 10px rgba(126, 239, 243, 0.4);
+    transform: translateY(-9px);
+}
+#timeline-header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+section{
+    border-radius: 20px;
+    margin-left: 10px;
+    position:absolute;
+    /* background-color: #ffffff; */
+    background-color: rgb(250, 250, 250);
+
+    width: 40%;
+}
+.content{
+    color: black;
+    font-size:  19px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 1rem;
+
+}
+.content:hover{
+    transform: translateY(-9px);
+    font-size:  25px;
+}
+.description{
+    font-size:  25px;
+    margin-left: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+p:hover{
+    /* transform: translateY(-9px); */
+    /* background-color: rgb(30, 34, 88); */
+    font-size: 26px;
+
+}
+.bgimg{
+    position: right;
+    margin-left: 20%;
+     opacity: 0.4;
+    /*height: 90px;
+    width: 90px; */
+    background-image: url('https://www.scrolldroll.com/wp-content/uploads/2020/03/Ratan-Tata-Quotes-4.jpg');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.read-more{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 7px;
+    /* text-transform: uppercase; */
+    font-size: 20px;
+  }
+h3{
+    font-size: 20px ;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.button1{
+    background-color: grey; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button1:hover {
+    background-color: #5fd7ff;
+    /* color: rgb(231, 17, 17); */
+}
+
+.footer{
+    margin-top: 10%;
+    padding-bottom: 5%;
+} 
+
+a{
+    color: #0fffeb;
+}
+a:hover{
+    color: red;
+}
+
+
+
+
+.container-slide {
+    position: relative;
+    /* width: 50%; */
+  }
+  
+  .image {
+    display: block;
+    /* width: 100%;
+    height: auto; */
+    margin-left: 31.5%;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .1s ease;
+  }
+  
+  .container-slide:hover .overlay {
+    width: 100%;
+  }
+  
+  .multi-pic {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }

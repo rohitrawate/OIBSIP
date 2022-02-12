@@ -1,0 +1,9 @@
+@mixin smallDeviceSize {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+// "test": "echo \"Error: no test specified\" && exit 1",
+// "node-sass --watch scss -o css"
+// "compile:sass": "node-sass scss/style.scss css/style.css"
